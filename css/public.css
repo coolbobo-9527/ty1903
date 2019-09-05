@@ -1,0 +1,134 @@
+*{  margin:0;
+    padding:0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: none;
+}
+
+header{
+    height: 177px;
+    width: 100%;
+    background:red;
+}
+header #title{
+    height: 177px;
+    width: 96%;
+    background: black;
+    margin: 0 auto;
+}
+header img{
+    margin-left: 20px;
+}
+header #title a{
+    color: white;
+    font-size: 18px;
+}
+header #title nav{
+    position: relative;
+    display: flex;
+    align-content: space-between;
+    z-index: 100;
+    padding: 26px 0 16px 0;
+    text-align: center;
+    font-size: 0;
+    opacity: 1;
+    height: 69px;
+}
+footer{
+    height: 400px;
+    width: 100%;
+    background: black;
+}
+footer .foot-1{
+    width: 900px;
+}
+footer dl{
+    float: left;
+    margin:45px 95px 40px 33px;
+}
+footer dl dt{
+    margin-bottom: 30px;
+    font-size:15px;
+    color:#807d7a;
+}
+footer dl dd{
+    margin-bottom: 13px;
+}
+footer dl dd a{
+       font-size: 13px;
+       color: #b6b4b3;
+      
+}
+/* footer dl dd a img{
+    width: 15px;
+    margin-right: 10px; 
+}*/
+footer .dl-four a{
+    margin-left:22px;
+}
+footer .dl-four .dl-four-one{
+    background: url(../src/img/微信图标.png) no-repeat  ;
+    background-size: 15px;
+}
+footer .dl-four .dl-four-one:hover{
+    background: url(../src/img/微信图标1.png) no-repeat  ;
+    background-size: 15px; 
+}
+footer .dl-four .dl-four-one div img{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 560px;
+    top: 100px;
+    display: none;
+}
+footer .dl-four .dl-four-one:hover div img{
+    display: block;
+}
+footer dl dd:hover a{
+    color: white;
+}
+footer .dl-four .dl-four-two{
+    background: url(../src/img/新浪微博.png) no-repeat ;
+    background-size: 15px;
+}
+footer .dl-four .dl-four-two:hover{
+    background: url(../src/img/新浪微博1.png) no-repeat  ;
+    background-size: 15px; 
+}
+footer .dl-four .dl-four-three{
+    background: url(../src/img/优酷_01.png) no-repeat ;
+    background-size: 15px;
+}
+footer .dl-four .dl-four-three:hover{
+    background: url(../src/img/优酷_02.png) no-repeat  ;
+    background-size: 15px; 
+}
+footer .dl-four .dl-four-four{
+    background: url(../src/img/聊天.png) no-repeat  ;
+    background-size: 15px; 
+}
+footer .dl-four .dl-four-four:hover{
+    background: url(../src/img/聊天1.png) no-repeat  ;
+    background-size: 15px; 
+}
+footer .dl-four .dl-four-five{
+    background: url(../src/img/电话.png) no-repeat  ;
+    background-size: 15px; 
+}
+footer .dl-four .dl-four-five:hover{
+    background: url(../src/img/电话1.png) no-repeat  ;
+    background-size: 15px; 
+}
+
+footer .foot-1 .dl-last{
+    position: absolute;
+    left: 0px;
+    top: 220px;
+}
